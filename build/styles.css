@@ -1,0 +1,46 @@
+@media (max-width: 720px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+@media (min-width: 720px) {
+  .hide-on-desktop {
+    display: none !important;
+  }
+}
+.image-fit-cover img {
+  object-fit: cover !important;
+}
+
+.image-fit-contain img {
+  object-fit: contain !important;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+    transform: translate(1px, 0px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-1px, 0px) rotate(0deg);
+  }
+  55% {
+    transform: translate(2px, 0px) rotate(0deg);
+  }
+  80% {
+    transform: translate(-2px, 0px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@media (min-width: 720px) {
+  .button-shake-animation:hover {
+    animation: shake 0.15s;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

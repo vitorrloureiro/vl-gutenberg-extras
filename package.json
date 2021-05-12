@@ -1,0 +1,16 @@
+{
+  "name": "vl-gutenberg-extras",
+  "version": "0.0.1",
+  "description": "Extra functionalities to core Gutenberg blocks.",
+  "main": "./src",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "css": "sass src/styles.scss build/styles.css"
+  },
+  "author": "Vitor Loureiro",
+  "license": "",
+  "devDependencies": {
+    "@wordpress/scripts": "15.0.1"
+  }
+}
